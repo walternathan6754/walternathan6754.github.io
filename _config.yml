@@ -1,0 +1,68 @@
+# Site settings
+title: Nathan Walter
+email: walter9@illinois.edu
+url: https://walternathan6754.github.io
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+skills: "Web Developer - Graphic Artist - User Experience Designer"
+meta_author: Walter Nathan
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 685C79 #18bc9c
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: DA727E #2c3e50
+  secondary-dark: 455C7B #233140
+
+# Footer settings
+footer:
+  copyright: Nathan Walter
+  location: Location
+  social: Relevant Websites
+  contact: Contact Information
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/nate.walter.71
+  - title: github
+    url: https://github.com/walternathan6754
+other_web:
+  - title: Research Gate
+    url: https://www.researchgate.net/profile/Nathan_Walter2
+  - title: Zhang Group
+    url: http://zhang.npre.illinois.edu/
+  - title: Nuclear Home
+    url: http://npre.illinois.edu/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Talbot Laboratory  
+  - line: 104 S. Wright St.
+  - line: Urbana, IL 61801
+
+contact:
+  - title: email
+    address: walter9@illinois.edu
+  - title: phone
+    address: 847-849-7896
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,51 @@
+# Site settings
+publications:
+  - title: Extending a Strain Space Formulation for Plasticity to Rate-Hardening Materials and Finite Rotations
+    authors: Nathan Walter, Paul Friedrichsen, Scott Runnels
+    status: submitted to
+    journal: Mathematics and Computers in Simulation
+    date:
+
+  - title: Extending a Strain Space Formulation for Plasticity to Rate-Hardening Materials and Finite Rotations
+    authors: Nathan Walter, Paul Friedrichsen, Scott Runnels
+    status: LA_UR-15-23329
+    journal: Los Alamos Unlimited Release
+    date: 2015
+
+  - title: Energy Landscape Statistics and Coarsening in Liquids&#x3a A Relaxation Mode Analysis
+    authors: Zhikun Cai, Nathan Walter, Yang Zhang
+    status: to be submitted
+    journal:
+    date:
+
+  - title: Improving Plasticity Modeling in Hydrocodes with Hypoelastic Frameworks
+    authors: Nathan Walter, Paul Friedrichsen
+    status: LA_UR-14-26946
+    journal: Los Alamos Unlimited Release
+    date: 2014
+
+presentations:
+  - title: Understanding Classification of Hand-Written Numbers with Machine Learning Techniques
+    type: Discussion
+    date: May, 2016
+    location: The Hacker Within &#x3a University of Illinois Urbana-Champaign
+
+  - title: Homogenous Nucleation and Crystal Growth of a Model Liquid from Direct Energy Landscape Sampling Simulations
+    type: Talk
+    date: April, 2016
+    location: University of Illinois Urbana-Champaign Nuclear Engineering Undergraduate Seminar
+
+  - title: Homogenous Nucleation and Crystal Growth of a Model Liquid from Direct Energy Landscape Sampling Simulations
+    type: Talk
+    date: March, 2016
+    location: American Physical Society March Meeting
+
+  - title: Energy Landscape Statistics of Kob-Andersen Liquid From Direct Energy Barrier Sampling
+    type: Poster
+    date: March, 2015
+    location: American Physical Society March Meeting
+
+  - title: A New Strain-Based Method for Plastic Flow Simulations
+    type: Talk
+    date: August, 2014
+    location: Los Alamos Student Summer Symposium

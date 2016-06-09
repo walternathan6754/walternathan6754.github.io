@@ -3,7 +3,7 @@ layout: default
 title: Water
 modal-id: 4
 date: 2014-07-15
-img: water.png
+img: Water.png
 keywords: 
 description:
 

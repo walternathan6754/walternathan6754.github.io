@@ -202,19 +202,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>
-                    INFORMATION ABOUT ME!!!!!
+                <div class="col-lg-6">
+                    <p style="text-align:justify">
+                    I am currently a graduate student at the <a style="color:#F57336"><strong>University of Illinois at Urbana-Champaign</a></strong> in the Department of Nuclear, Plasma, and Radiological Engineering, pursuing my PhD.  I am working in <strong><a href="http://zhang.npre.illinois.edu/" style="color:#F57336"> Professor Zhang's </a></strong> research group, and have been apart of the group for almost three years.  Before graduate school, I attended the University of Illinois at Urbana-Champaign also for my Bachelor's Degree in Nuclear, Plasma, and Radiological Engineering, which I completed in December of 2013, and before that, I grew up in the suburbs of Chicago.  In between my first and second year of graduate school, I attended the compuational physics summer school program at <a style="color:#F57336"><strong>Los Alamos National Labratory</a></strong> in New Mexico.  During that summer, I developed codes for a hyperelastic framework.  The following summer, I attended the X-ray and Neutron Scattering Summer School at Argonne and Oak Ridge National Labratories.
                     </p>
                 </div>
-                <div class="col-lg-4">
-                    <p>
-                    MORE INFORMATION ABOUT ME!!!!
+                <div class="col-lg-6">
+                    <p style="text-align:justify">
+                    During my graduate studies, I have mostly focused on material behavior out of equilibrium, studied primarly through atomic scale simulations and neutron scattering expirements.  From a compuational side, I have used both <strong><a style="color:#F57336">molecular dynamics</a></strong> (classical and <i>ab initio</i>) and <strong><a style="color:#F57336">Monte Carlo</a></strong> simulations to study materials, along with developing a <a style="color:#F57336"><strong>Metadynamics module</a></strong> for GROMACS.  Further, I implemented the <a  style="color:#F57336"><strong>ST2 water model</a></strong> into GROMACS for simulation.  I aided in the developement of a open source package, <a style="color:#F57336"><strong>LiquidLib</a></strong>, geared towards post-processing of atomic scale simulations.  From an experimental side, I have participated in several <a style="color:#F57336"><strong>Neutron Scattering Experiments</a></strong> at Oak Ridge National Labratory.  On the side, I have modeled the relationship between flexibility and porousity in organic cages, developed a <a style="color:#F57336"><strong>high dimensional</a></strong> (greater than 3) Lennard-Jones molecular dynamics package for dimensional studies of liquids, and used <a style="color:#F57336"><strong>machine learning</a></strong> to explore trends (in Steam User Data, Twitter, and the stock market).
                     </p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="./resume/cv.pdf" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Curricula Vitae
+                    <a href="./documents/cv.pdf" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Curriculum Vitae
                     </a>
                 </div>
             </div>
@@ -307,11 +307,11 @@
 		           
                         </ul>
                     </div>
-                    <div class="footer-col col-md-3">
+                    <div class="footer-col col-md-3.5">
                         <h3>Contact Information</h3>
                         <p>
                             
-                                email: walter9@illinois.edu <br>
+                                email: walter9_(at)_illinois_(.)_edu <br>
 		                    
                                 phone: 847-849-7896 <br>
 		                    
@@ -350,16 +350,23 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-12">
                         <div class="modal-body">
                             <h2>Nucleation</h2>
                             <hr class="star-primary">
                             <img src="img/projects/Nucleation.png" class="img-responsive img-centered" alt="" style="width:400px">
-                            <p></p>
+                            <p style="text-align:justify"></p>
+                            <br>  </br>
+                            <p style="text-align:justify"></p>
                             <ul class="list-inline item-details">
-                                <li>Project Keywords:
-                                    <strong><a href="http://startbootstrap.com">Metadynamics, Nucleation</a>
+                                <li>Relevant Rescource:
+                                    <strong><a href=./documents/masters_thesis.pdf style="color:#047878">Masters Thesis</a>
                                     </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details">
+                                <li>Relevant Publication:
+                                    <strong><a href=404 style="color:#047878"><i>Homogenous Nucleation and Crystal Growth in a Model Liquid from a Direct Energy Landscape Sampling Simulation</i>,</a></strong> To be submitted
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -380,16 +387,23 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-12">
                         <div class="modal-body">
                             <h2>Metadynamics</h2>
                             <hr class="star-primary">
                             <img src="img/projects/Metadynamics.png" class="img-responsive img-centered" alt="" style="width:400px">
-                            <p></p>
+                            <p style="text-align:justify">Traditionally to study material behavior from an atomistic scale, researchers use molecular dynamics and Monte Carlo simulations to computationally explore the structure and dynamics of materials.  However, molecular dynamics, which numerically integrates Newton's equation of motion, is limited in temporal scale to microseconds.  Similarly, Monte Carlo, which randomly samples system configurations, lacks dynamical information.  To overcome the limitations of molecular dynamics and Monte Carlo, metadynamics has been recently proposed and used to perform advanced sampling simulations for various applications.  Metadynamics applies potential energy penalty functions to bias systems to overcome large energy barriers inhibiting dynamical behavior.  Typically, at low temperatures, these large energy barriers are only overcome during macroscopically long time behavior, orders of magnitude larger in scale than accessible by molecular dynamics.  By utilizing metadynamics, we are able to simulate long time dynamics and transient events.  We have thus used metadynamics to study the long time dynamics of glassy systems experiencing dynamical arrest, the kinetic behavior of crystal nucleation, and look to extend our studies to surface behavior and protein folding.  Other interesting work with metadynamics has used the method to study dislocation diffusion, Arrhenius nature of supercooled liquids, etc.</p>
+                            <br>  </br>
+                            <p style="text-align:justify">We have implemented the metadynamics method into <strong><a href="http://www.gromacs.org/" style="color:#047878"> GROMACS </a></strong>, an open source molecular dynamics package.  The code has been fully parallelized for efficiency, and has been benchmarked with the Kob-Andersen model liquid and the monoatomic Lennard-Jones model Argon.  For information about the code or to request access to the code, please contact me.</p>
                             <ul class="list-inline item-details">
-                                <li>Project Keywords:
-                                    <strong><a href="http://startbootstrap.com">adsf</a>
+                                <li>Relevant Rescource:
+                                    <strong><a href=https://en.wikipedia.org/wiki/Metadynamics style="color:#047878">Wikipedia Metadynamics</a>
                                     </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details">
+                                <li>Relevant Publication:
+                                    <strong><a href=404 style="color:#047878"><i>Metadynamics Technique Implemented into GROMACS</i>,</a></strong> To be submitted
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -410,16 +424,23 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-12">
                         <div class="modal-body">
                             <h2>LiquidLib</h2>
                             <hr class="star-primary">
                             <img src="img/projects/LiquidLib.png" class="img-responsive img-centered" alt="" style="width:400px">
-                            <p></p>
+                            <p style="text-align:justify"></p>
+                            <br>  </br>
+                            <p style="text-align:justify"></p>
                             <ul class="list-inline item-details">
-                                <li>Project Keywords:
-                                    <strong><a href="http://startbootstrap.com">C++, Atomic Scale Simulations, Neutron Scattering</a>
+                                <li>Relevant Rescource:
+                                    <strong><a href=http://zhang-group.github.io/LiquidLib/ style="color:#047878">LiquidLib Registration</a>
                                     </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details">
+                                <li>Relevant Publication:
+                                    <strong><a href=404 style="color:#047878"><i>LiquidLib&#58 A comprehensive tool for post processing of molecular dynamic simulations of liquids with application to neutron scattering experiments</i>,</a></strong> To be submitted
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -440,16 +461,23 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-12">
                         <div class="modal-body">
                             <h2>Water</h2>
                             <hr class="star-primary">
                             <img src="img/projects/Water.png" class="img-responsive img-centered" alt="" style="width:400px">
-                            <p></p>
+                            <p style="text-align:justify"></p>
+                            <br>  </br>
+                            <p style="text-align:justify">We have implemented the ST2 water model into <strong><a href="http://www.gromacs.org/" style="color:#455C7B"> GROMACS </a></strong>, an open source molecular dynamics package.  The code has been fully parallelized for efficiency, and has been benchmarked with the original work by Stillinger on <strong><a href="http://scitation.aip.org/content/aip/journal/jcp/60/4/10.1063/1.1681229" style="color:#455C7B"> ST2 </a></strong>.  For information about the ST2 code or to request access to the ST2 code, please contact me.</p>
                             <ul class="list-inline item-details">
-                                <li>Project Keywords:
-                                    <strong><a href="http://startbootstrap.com"></a>
+                                <li>Relevant Rescource:
+                                    <strong><a href=http://www1.lsbu.ac.uk/water/water_models.html style="color:#047878">Water Models for Simulation</a>
                                     </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details">
+                                <li>Relevant Publication:
+                                    <strong><a href=404 style="color:#047878"><i>Validity boundary of the Stokes-Einstein relation in water</i>,</a></strong> To be submitted
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -470,16 +498,23 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-12">
                         <div class="modal-body">
                             <h2>Plasticity</h2>
                             <hr class="star-primary">
                             <img src="img/projects/Plasticity.png" class="img-responsive img-centered" alt="" style="width:400px">
-                            <p></p>
+                            <p style="text-align:justify"></p>
+                            <br>  </br>
+                            <p style="text-align:justify"></p>
                             <ul class="list-inline item-details">
-                                <li>Project Keywords:
-                                    <strong><a href="http://startbootstrap.com"></a>
+                                <li>Relevant Rescource:
+                                    <strong><a href=http://www.sciencedirect.com/science/article/pii/S0378475412001693 style="color:#047878">Strain Space Hyperplasticity</a>
                                     </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details">
+                                <li>Relevant Publication:
+                                    <strong><a href=404 style="color:#047878"><i>Extending a Strain Space Formulation for Plasticity to Rate-Hardening Materials and Finite Rotations</i>,</a></strong> Submitted to Mathematics and Computers in Simulation
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -500,16 +535,23 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-12">
                         <div class="modal-body">
                             <h2>Side Projects</h2>
                             <hr class="star-primary">
                             <img src="img/projects/SideProjects.png" class="img-responsive img-centered" alt="" style="width:400px">
-                            <p></p>
+                            <p style="text-align:justify"></p>
+                            <br>  </br>
+                            <p style="text-align:justify"></p>
                             <ul class="list-inline item-details">
-                                <li>Project Keywords:
-                                    <strong><a href="http://startbootstrap.com"></a>
+                                <li>Relevant Rescource:
+                                    <strong><a href= style="color:#047878"></a>
                                     </strong>
+                                </li>
+                            </ul>
+                            <ul class="list-inline item-details">
+                                <li>Relevant Publication:
+                                    <strong><a href=404 style="color:#047878"><i></i></a></strong> 
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

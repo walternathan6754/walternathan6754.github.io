@@ -5,8 +5,8 @@
     <description>Personal website for Nathan Walter.  Find information on current and past projects, general goals, and publications.  Link to my cv and research group are also included.</description>
     <link>https://walternathan6754.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 27 Jun 2016 11:16:21 -0500</pubDate>
-    <lastBuildDate>Mon, 27 Jun 2016 11:16:21 -0500</lastBuildDate>
+    <pubDate>Thu, 30 Jun 2016 10:22:17 -0500</pubDate>
+    <lastBuildDate>Thu, 30 Jun 2016 10:22:17 -0500</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
     
       <item>
@@ -21,7 +21,7 @@
     
       <item>
         <title>Metadynamics</title>
-        <description></description>
+        <description>Traditionally to study material behavior from an atomistic scale, researchers use molecular dynamics and Monte Carlo simulations to computationally explore the structure and dynamics of materials.  However, molecular dynamics, which numerically integrates Newton&#39;s equation of motion, is limited in temporal scale to microseconds.  Similarly, Monte Carlo, which randomly samples system configurations, lacks dynamical information.  To overcome the limitations of molecular dynamics and Monte Carlo, metadynamics has been recently proposed and used to perform advanced sampling simulations for various applications.  Metadynamics applies potential energy penalty functions to bias systems to overcome large energy barriers inhibiting dynamical behavior.  Typically, at low temperatures, these large energy barriers are only overcome during macroscopically long time behavior, orders of magnitude larger in scale than accessible by molecular dynamics.  By utilizing metadynamics, we are able to simulate long time dynamics and transient events.  We have thus used metadynamics to study the long time dynamics of glassy systems experiencing dynamical arrest, the kinetic behavior of crystal nucleation, and look to extend our studies to surface behavior and protein folding.  Other interesting work with metadynamics has used the method to study dislocation diffusion, Arrhenius nature of supercooled liquids, etc.</description>
         <pubDate>Tue, 15 Jul 2014 00:00:00 -0500</pubDate>
         <link>https://walternathan6754.github.io/2014/07/15/Metadynamics/</link>
         <guid isPermaLink="true">https://walternathan6754.github.io/2014/07/15/Metadynamics/</guid>

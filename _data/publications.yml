@@ -25,6 +25,11 @@ publications:
     date: 2014
 
 presentations:
+  - title: Homogenous Nucleation and Crystal Growth of a Model Liquid from Direct Energy Landscape Sampling Simulations
+    type: Talk
+    date: July, 2016
+    location: American Conference on Neutron Scattering (ACNS)
+
   - title: Understanding Classification of Hand-Written Numbers with Machine Learning Techniques
     type: Discussion
     date: May, 2016
@@ -38,12 +43,12 @@ presentations:
   - title: Homogenous Nucleation and Crystal Growth of a Model Liquid from Direct Energy Landscape Sampling Simulations
     type: Talk
     date: March, 2016
-    location: American Physical Society March Meeting
+    location: American Physical Society March Meeting (APS)
 
   - title: Energy Landscape Statistics of Kob-Andersen Liquid From Direct Energy Barrier Sampling
     type: Poster
     date: March, 2015
-    location: American Physical Society March Meeting
+    location: American Physical Society March Meeting (APS)
 
   - title: A New Strain-Based Method for Plastic Flow Simulations
     type: Talk

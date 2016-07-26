@@ -1,5 +1,5 @@
 # Site settings
-title: Nathan Walter
+title: Nathan P. Walter
 email: walter9@illinois.edu
 url: https://walternathan6754.github.io
 description: "Personal website for Nathan Walter.  Find information on current and past projects, general goals, and publications.  Link to my cv and research group are also included."
@@ -28,7 +28,7 @@ disqus_shortname: myshortname
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 047878 #18bc9c
-  primary-rgb: "24,288,156" #"128,179,255"
+  primary-rgb: "225,183,51" #"128,179,255"
   secondary: 7F1637 #2c3e50
   secondary-dark: F57336 #233140
 
